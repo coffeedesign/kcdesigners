@@ -7,7 +7,9 @@
 meteor-platform
 autopublish
 insecure
-iron:router
 joshowens:accounts-entry
 accounts-password
 nooitaf:semantic-ui
+accounts-base
+accounts-ui
+iron:router

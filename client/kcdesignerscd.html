@@ -1,0 +1,31 @@
+<head>
+  <title>Kansas City Designers</title>
+</head>
+<body>
+  <div class="container">
+  {{> content}}
+  </div>
+</body>
+
+<template name="content">
+  <div class="row">
+    <div class="span6">
+      <div class="well">
+        {{> loginButtons}}
+      </div>
+      <table class="table">
+      {{#each users}}
+        {{> user}}
+      {{/each}}
+      </table>
+    </div>
+  </div>
+</template>
+
+<template name="user">
+  <tr>
+    <td>
+      <a target="_blank" href="http://twitter.com/{{userName}}"><img src="{{image}}"/> {{fullName}}</a>
+    </td>
+  </tr>
+</template>

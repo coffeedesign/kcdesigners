@@ -5,4 +5,9 @@ Template.content.helpers({
 
 });
 
+Template.user.helpers({
+  profileURL: function (url) {
+    return url.replace("_normal", "");
+  }
+});
 

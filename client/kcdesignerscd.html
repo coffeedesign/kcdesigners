@@ -6,53 +6,31 @@
 </body>
 
 <template name="content">
-  <div class="ui grid">
-    <div class="row">
-      <div class="thirteen wide column ">
-        <h1> Kansas City Designers</h1>
-      </div>
-      <div class="three wide column">
-        <h3>Add Yourself!</h3>
-        {{> loginButtons}}
+  <div class="hero">
+    <h1> Kansas City Designers</h1>
+    <div class="joinin">
+      <h3>Add Yourself!</h3>
+      {{> loginButtons}}
+    </div>
+  </div>
+  <div class="ui page grid centered">
+    <div class="sixteen wide column">
+      <div class="ui cards">
+        {{#each users}}
+          {{> user}}
+        {{/each}}
       </div>
     </div>
   </div>
-    <div class="ui cards">
-      {{#each users}}
-        {{> user}}
-      {{/each}}
-    </div>
 </template>
 
 <template name="user">
   <div class="card">
     <div class="image">
-      <img src="{{services.twitter.profile_image_url}}">
+      <img src="{{profileURL services.twitter.profile_image_url}}">
     </div>
     <div class="content">
       <a class="header">{{profile.name}}</a>
     </div>
   </div>
 </template>
-
-<!-- CODE FOR HOVER IMAGE -->
-<!-- <template name="user">
-  <div class="card">
-    <div class="dimmable image">
-      <div class="ui dimmer transition fade out hidden">
-        <div class="content">
-          <div class="center">
-            <div class="ui inverted button">
-              <a target="_blank" href="http://twitter.com/{{services.twitter.screenName}}">@{{services.twitter.screenName}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="{{services.twitter.profile_image_url}}">
-    </div>
-    <div class="content">
-        <a class="header">{{profile.name}}</a>
-      </div>
-    </div>
-  </div>
-</template>  -->

@@ -7,7 +7,7 @@
 meteor-platform
 autopublish
 accounts-base
-accounts-ui
 accounts-twitter
 semantic:ui-css
-bengott:avatar
+semantic:ui-dimmer
+accounts-ui

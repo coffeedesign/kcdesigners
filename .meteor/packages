@@ -6,8 +6,8 @@
 
 meteor-platform
 autopublish
-insecure
 accounts-base
 accounts-ui
 accounts-twitter
-bootstrap
+semantic:ui-css
+bengott:avatar

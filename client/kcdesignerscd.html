@@ -7,30 +7,34 @@
 
 <template name="content">
   <div class="hero">
-    <h1> Kansas City Designers</h1>
+    <h1> Kansas City<br>Designers</h1>
     <div class="joinin">
       <h3>Add Yourself!</h3>
       {{> loginButtons}}
     </div>
+    <div class="clouds">
+    </div>
+    <div class="moon">
+    </div>
   </div>
-  <div class="ui page grid centered">
-    <div class="sixteen wide column">
-      <div class="ui cards">
-        {{#each users}}
-          {{> user}}
-        {{/each}}
+  <div class="list">
+    <div class="designer">
+      <div class="avatar">
+        <img src="/resources/ryan.jpg">
       </div>
+      <a class="name">Ryan Keairns</a>
     </div>
   </div>
-</template>
 
-<template name="user">
-  <div class="card">
-    <div class="image">
-      <img src="{{profileURL services.twitter.profile_image_url}}">
-    </div>
-    <div class="content">
-      <a class="header">{{profile.name}}</a>
-    </div>
-  </div>
-</template>
+<!-- DYNAMIC USE TEMPLATE -->
+
+<!-- <template name="user"> -->
+<!--   <div class="card"> -->
+<!--     <div class="image"> -->
+<!--       <img src="{{profileURL services.twitter.profile_image_url}}"> -->
+ <!--    </div> -->
+  <!--   <div class="content"> -->
+<!--       <a class="header">{{profile.name}}</a> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </template> -->

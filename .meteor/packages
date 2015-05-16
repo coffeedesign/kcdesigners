@@ -8,6 +8,7 @@ meteor-platform
 autopublish
 accounts-base
 accounts-twitter
-semantic:ui-css
-semantic:ui-dimmer
 accounts-ui
+wolves:bourbon
+wolves:neat
+fourseven:scss

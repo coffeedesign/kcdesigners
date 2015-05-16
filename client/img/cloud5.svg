@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="356px" height="68px" viewBox="0 0 356 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#2069FF" offset="0%"></stop>
+            <stop stop-color="#DE54F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-8" sketch:type="MSArtboardGroup" transform="translate(-1254.000000, -531.000000)" fill="url(#linearGradient-1)">
+            <path d="M1433.1962,576.000002 C1437.20907,574.203526 1440,570.177946 1440,565.5 C1440,559.147329 1434.84799,554 1428.49267,554 L1373.99277,554 L1373.99277,554 L1562.50723,554 L1562.50723,554 L1526.50733,554 C1520.1447,554 1515,559.148725 1515,565.5 C1515,570.178787 1517.79467,574.203745 1521.80645,576 L1545.49204,576 C1547.16671,576 1548.75784,576.357371 1550.19317,577 L1562.50723,577 L1550.19317,577 C1554.20518,578.796255 1557,582.821213 1557,587.5 C1557,593.851275 1551.85219,599 1545.49204,599 L1265.50796,599 C1259.15229,599 1254,593.852671 1254,587.5 C1254,581.148725 1259.14781,576 1265.50796,576 L1433.1962,576 L1433.1962,576.000002 Z M1307,542.5 C1307,536.148725 1312.14781,531 1318.50796,531 L1598.49204,531 C1604.84771,531 1610,536.147329 1610,542.5 C1610,548.851275 1604.85219,554 1598.49204,554 L1318.50796,554 C1312.15229,554 1307,548.852671 1307,542.5 Z" id="cloud5" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

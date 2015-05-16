@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+body{
+    background-color: #0A1115;
+    font-family: 'Montserrat', sans-serif
+}
+
+.hero {
+  height:   600px;
+  z-index:  1;
+
+  h1{
+    color:        white;
+    font-size:    4em;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-weight:  200;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    position:     relative;
+    z-index:      10;
+    margin-top:   15%;
+    margin-left:  10%;
+  }
+
+  h3{
+    color: white;
+  }
+}
+
+.clouds{
+    background:         url(/resources/clouds.svg);
+    background-repeat:  no-repeat;
+    background-size:    100%;
+    display:            block;
+    height:             600px;
+    position:           absolute;
+    width:              100%;
+    top:                8%;
+    z-index:            5;
+}
+
+.moon{
+    background:         url(/resources/moon.svg);
+    background-repeat:  no-repeat;
+    background-size:    100%;
+    display:            block;
+    height:             418px;
+    position:           absolute;
+    width:              418px;
+    z-index:            3;
+    top:                -20%;
+    right:              -5%;    
+}
+
+.joinin{
+  float: right;
+  margin-right: 5%;
+  position: relative;
+  z-index: 20;
+  margin-top: -14%;
+}
+
+.list{
+  @include outer-container;
+  margin-top: 4em;
+
+  .designer{
+    @include span-columns(3);
+    @include omega(4n);
+    position: relative;
+  }
+  .avatar{
+    width:          80%;
+    height:         80%;
+    border-radius:  50%;
+
+    position:       absolute;
+  }
+  .name{
+    width:    90%;
+    height:   10%;
+
+    position: absolute;
+  }
+}

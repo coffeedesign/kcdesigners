@@ -20,72 +20,19 @@
   </div>
   <div class="content -list">
     <ul class="grid">
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
-      <li class="grid-block">
-        <div class="designer">
-          <img class="designer-avatar" src="/resources/ryan.jpg">
-          <a class="designer-name" href="http://twitter.com/ryankeairns">Ryan Keairns</a>
-        </div>
-      </li>
+    {{#each users}}
+      {{> user}}
+    {{/each}}
     </ul>
   </div>
+</template>
+
+
+<template name="user">
+  <li class="grid-block">
+    <div class="designer">
+      <img class="designer-avatar" src="{{profileURL services.twitter.profile_image_url}}">
+      <a class="designer-name" href="http://twitter.com/{{userName}}">{{profile.name}}</a>
+    </div>
+  </li>
 </template>

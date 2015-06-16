@@ -13,7 +13,7 @@
     <div class="content -hero">
       <h1> Kansas City<br>Designers</h1>
       <div class="joinin">
-        <h3>Add your mug!</h3>
+        <h3>We eat a lot, and draw things on stuff.</h3>
         {{> loginButtons}}
       </div>
     </div>
@@ -32,7 +32,7 @@
   <li class="grid-block">
     <div class="designer">
       <img class="designer-avatar" src="{{profileURL services.twitter.profile_image_url}}">
-      <a class="designer-name" href="http://twitter.com/{{userName}}">{{profile.name}}</a>
+      <a class="designer-name" href="http://twitter.com/{{services.twitter.screenName}}">{{profile.name}}</a>
     </div>
   </li>
 </template>

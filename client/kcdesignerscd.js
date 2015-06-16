@@ -10,4 +10,3 @@ Template.user.helpers({
     return url.replace("_normal", "");
   }
 });
-

@@ -50,6 +50,8 @@ a {
 
   h3{
     color: white;
+    font-weight: 200;
+    font-size: 1.5em;
   }
 }
 
@@ -88,7 +90,7 @@ a {
 
 // Grid
 
-$grid_spacing: 1rem;
+$grid_spacing: 1.5rem;
 
 .grid {
   list-style: none;
@@ -108,12 +110,52 @@ $grid_spacing: 1rem;
 }
 
 
+
+// Sign Up Button
+
+
+#login-buttons-twitter{
+  background-image:   url(/resources/loginbtn.svg);
+  background-size:    contain;
+  width:              30%;
+  height:             40pt;
+  display:            block;
+  background-repeat:  no-repeat;
+  cursor:             point;
+  @media (max-width: 800px) { width: (100% / 2) }
+  @media (max-width: 640px) { width: (100%) }
+}
+
+.text-besides-image{
+  display: none;
+}
+
+.login-display-name{
+  display: none;
+}
+
+#login-buttons-logout{
+  background-image:   url(/resources/signoutbtn.svg);
+  background-size:    contain;
+  width:              30%;
+  height:             40pt;
+  display:            block;
+  background-repeat:  no-repeat;
+
+  text-indent:        100%;
+  white-space:        nowrap;
+  overflow:           hidden;
+  cursor:             pointer;
+  @media (max-width: 800px) { width: (100% / 2) }
+  @media (max-width: 640px) { width: (100%) }
+}
+
 // Designer
 
 .designer{
-  position: relative;
+  position:   relative;
   text-align: right;
-  width: 100%;
+  width:      100%;
 }
 
 .designer-avatar{

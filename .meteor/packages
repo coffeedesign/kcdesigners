@@ -8,7 +8,7 @@ meteor-platform
 autopublish
 accounts-base
 accounts-twitter
-accounts-ui
 wolves:bourbon
 wolves:neat
 fourseven:scss
+accounts-ui-unstyled

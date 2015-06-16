@@ -41,8 +41,7 @@
 
 <template name="user">
   <li class="grid-block">
-    <div class="designer">
-      <img class="designer-avatar" src="{{profileURL services.twitter.profile_image_url}}">
+    <div class="designer" style="background-image: url({{profileURL services.twitter.profile_image_url}})">
       <a class="designer-name" href="http://twitter.com/{{services.twitter.screenName}}">{{profile.name}}</a>
     </div>
   </li>

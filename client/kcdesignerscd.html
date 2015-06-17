@@ -36,6 +36,7 @@
     {{/each}}
     </ul>
   </div>
+  {{> footer}}
 </template>
 
 
@@ -45,4 +46,10 @@
       <a class="designer-name" href="http://twitter.com/{{services.twitter.screenName}}">{{profile.name}}</a>
     </div>
   </li>
+</template>
+
+<template name="footer">
+    <div class="footer">
+      <a class="poweredby" href="http://kc.coffeedesign.org"><span>Powered by</span> <img src="/resources/cdlogo.svg"></a>
+    </div>
 </template>
